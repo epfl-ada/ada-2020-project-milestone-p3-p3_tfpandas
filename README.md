@@ -36,7 +36,7 @@ like SVM or deep learning to increase the accuracy of prediction.
 A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
 
   + Week 1: Yuanhui will be responsible for extracting all the needed variables from the json data, return as a pandas dataframe for later usage. Yehao and Hangqian will use the data to explore the correlation bettween each pair of variables mentioned before. If time allowed, more pairs of variables will be examined. 
-  + Week 2: Yehao will implenment the logistic regression model used in the paper with extra variables which are the meaningful interactions. We analyze the result, see if adding interactions is helpful for predicting betrayal. The three of us will start to use different machine learning methods to do the prediction.
+  + Week 2: Yehao will impleament the logistic regression model used in the paper with extra variables which are the meaningful interactions. We analyze the result, see if adding interactions is helpful for predicting betrayal. The three of us will start to use different machine learning methods to do the prediction.
   + Week 3: Get results from our different methods, analyze the result. Start to write report and make video.
   
 ### 8. Questions for TAs (optional)
