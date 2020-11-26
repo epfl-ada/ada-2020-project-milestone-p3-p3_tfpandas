@@ -3,7 +3,7 @@
 
 ### 2. Abstract
 
-In our project, we decide to use the dataset the same as the one we are reading. Our goal is to predict whether a player will betray or not using the interaction between variables.
+In our project, we decide to use the dataset the same as the one we are given. Our goal is to predict whether a player will betray or not using the interaction between variables.
 We found that in the paper, they only study the imbalance within each variables. In our opinion, it is a waste to only use an average value in explaination and prediction.
 In our project, we want to extend their analysis by analyzing the interaction betweeen these variables. We guess when people betray, they might speak more while be more polite, 
 or they would speak less while more impolite. We think there is an underlying correlations within these variables. We also want to use different techniches in machine learning
@@ -16,7 +16,7 @@ like SVM or deep learning to increase the accuracy of prediction.
 
 ### 4. Proposed dataset
   We decide to use the dataset given by the paper. There are two main reasons we do this:
-  + The first reason is to reduce not neccessary work. It is hard to find enough dataset for such a old game. It also take too much time to process the data. For example, we might 
+  + The first reason is to reduce unnecessary work. It is hard to find enough dataset for such a old game. It also take too much time to process the data. For example, we might 
   spend an extra time in learning Standford politeness test.
   + Another reason is that we can compare our result with the original paper directly. If we use different dataset, we might have high probability have different result due to 
   different preprocessing and different data. It is more convinced to say our model is better if our method increase the accuracy.
