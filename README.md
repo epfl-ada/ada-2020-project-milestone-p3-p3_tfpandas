@@ -17,9 +17,9 @@ like SVM or deep learning to increase the accuracy of prediction.
 ### 4. Proposed dataset
   We decide to use the dataset given by the paper. There are two main reasons we do this:
   + The first reason is to reduce unnecessary work. It is hard to find enough dataset for such an old game. It also take too much time to process the data. For example, we might 
-  spend an extra time in learning Standford politeness test.
+  spend extra time in learning Standford politeness test.
   + Another reason is that we can compare our result with the original paper directly. If we use different dataset, we might have high probability have different result due to 
-  different preprocessing and different data. It is more convinced to say our model is better if our method increase the accuracy.
+  different preprocessing and different data. It is more convincing to say our model is better if our method increases the accuracy.
 
 ### 5. Methods
   + We will first explore if there is correlation between each pair of variables using Pearson coeficient. The interaction between variables we will look into are talkativeness and politeness, talkativeness and sentiment, number of request and politeness, number of request and sentiment. We will then use statistics test to find if the interaction between variables are helpful for predicting. 
