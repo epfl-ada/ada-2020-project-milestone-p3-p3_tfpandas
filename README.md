@@ -4,10 +4,8 @@
 ### 2. Abstract
 
 In our project, we decide to use the dataset the same as the one we are given. Our goal is to predict whether a player will betray or not using the interaction between variables.
-We found that in the paper, they only study the imbalance within each variables. In our opinion, it is a waste to only use an average value in explaination and prediction.
-In our project, we want to extend their analysis by analyzing the interaction betweeen these variables. We guess when people betray, they might speak more while be more polite, 
-or they would speak less while more impolite. We think there is an underlying correlations within these variables. We also want to use different techniches in machine learning
-like SVM or deep learning to increase the accuracy of prediction.
+We found that in the paper, they only study the imbalance within each variables. In our opinion, we can probably predict betrayal with a higher accuracy by utilizing more variables and the interaction between them.
+We want to extend their analysis by analyzing the interaction betweeen different variables. We guess when people betray, they might speak more while be more polite, or they would speak less while more impolite. We think there is an underlying correlations within these variables. We also want to use different techniches in machine learning such as SVM and deep learning to increase the accuracy of prediction.
 
 ### 3. Research Questions
  + Is the interaction between some variables related to the probability of betrayal?
@@ -27,10 +25,10 @@ like SVM or deep learning to increase the accuracy of prediction.
   + Finally, we will try other methods in machine learning like SVM, random forest and deep learning to do the task, see if we can achieve a higher accuracy.
 
 ### 6. Proposed timeline
-  + First discussion in 11.28. Spent 10 hours to replicate the original paper, extract the necessary variables we will use from the data.
-  + Second discussion in 12.05 & 12.06 . Spent 15 hours to extend our result.
-  + Fix buges and write report 12.07 - 12.13. Spent 9 hours total to do this separately.
-  + Make a video 12.14 - 12.18. Spend 3-5 hours to make a video.
+  + First discussion on 11.28. Spend 10 hours to replicate the original paper, extract the necessary variables we will use from the data.
+  + Second discussion on 12.05 & 12.06 . Spend 15 hours to extend our result.
+  + Fix bugs and write report from 12.07 to 12.13. Spent 9 hours total to do this separately.
+  + Make a video from 12.14 to 12.18. Spend 3-5 hours to make a video.
 
 ### 7. Organization within the team
 A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
