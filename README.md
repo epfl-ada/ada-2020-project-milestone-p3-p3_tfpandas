@@ -1,5 +1,5 @@
   
-  * extension_partII.ipynb: 
+  * extension_feature_selection.ipynb:
   
   * extension_partI.ipynb:
   
