@@ -1,5 +1,5 @@
   
-  * extension_feature_selection.ipynb:
+  * extension_feature_selection.ipynb: In this notebook, we mainly examine the different features that are provided in the dataset, look into the imbalance of different features and the correlation of different features. We will select features for the future extension work.
   
   * extension_partI.ipynb:
   
