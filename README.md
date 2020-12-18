@@ -15,13 +15,13 @@ In this notebook, we use different machine learning techniques to fit the data o
 
 
 ### 3. Organization within the team  
-  +Yuanhui
+  + Yuanhui
   Data processing, writing report, making video, code merging and data exploring.
   
-  +Yehao
+  + Yehao
   Machine learning, writing report, making video, data analysis and statistic analysis.
   
-  +Hangqian
+  + Hangqian
   Data visualization, writing report, making video, data exploring and machine learning.
   
 
