@@ -3,7 +3,7 @@
   
   * extension_partI.ipynb: In this notebook, we consider each valuable season as individual. We process the data in the way like in part 4 of the paper Language Foretelling Betrayal.
   
-  * extension_partII.ipynb:
+  * extension_partII.ipynb: In this part, we consider each game as individual, for each game, we extract four seasons right before the end of friendship, we consider the features value of the four seasons and use the data for four season as training data, we hope to increase the accuracy of the betrayal prediction.
   
   
   
