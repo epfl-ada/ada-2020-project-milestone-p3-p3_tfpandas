@@ -1,41 +1,55 @@
 ##P3-Extension
-### 1. Predicting the betrayal using the interaction between variables.
+### 1. Does Betrayal Hide in Linguistics? Machine Learning Betrayal Detection in Diplomacy Game
 
-### 2. Abstract
+### 2. Content of GitHub
+There are three ipynb and 1 report here. I will briefly introduce them to you
 
-In our project, we decide to use the dataset the same as the one we are given. Our goal is to predict whether a player will betray or not using the interaction between variables.
-We found that in the paper, they only study the imbalance within each variables. In our opinion, we can probably predict betrayal with a higher accuracy by utilizing more variables and the interaction between them.
-We want to extend their analysis by analyzing the interaction betweeen different variables. We guess when people betray, they might speak more while be more polite, or they would speak less while more impolite. We think there is an underlying correlations within these variables. We also want to use different techniches in machine learning such as SVM and deep learning to increase the accuracy of prediction.
+#### extension_feature_selection
+In this notebook, we perform many statistical analysis. We find the correlation of the variables, and draw graphs for them. Our team also did dimensional reductions and feature selection in this notebook.
 
-### 3. Research Questions
- + Is the interaction between some variables related to the probability of betrayal?
- + Can we add these interaction to increase the accuracy of prediction?
- + Can we increase the accuracy of prediction by using different models in machine learning like random forest?
+#### extension_partI
+In this notebook, we use different machine learning methods to fit the data on each seasons trying to get a good result.
 
-### 4. Proposed dataset
+#### extension_partII
+In this notebook, we use different machine learning techniques to fit the data of four seasons before betrayal. 
+
+
+### 3. Organization within the team  
+  +Yuanhui
+  Data processing, writing report, making video, code merging and data exploring.
+  
+  +Yehao
+  Machine learning, writing report, making video, data analysis and statistic analysis.
+  
+  +Hangqian
+  Data visualization, writing report, making video, data exploring and machine learning.
+  
+
+
+### 4. Abstract
+
+Friendship is fickle, and there may be clues hidden in the words from friendship to betrayal. In our work, we mainly based on a previous research on linguistic harbingers of betrayal occurs in one online strategy game. We use machine learning methods like random forest, support vector machine, logistic regression to build a model that can judge whether a game will end up betrayal or not given the conversation the players have.
+
+
+### 5. Research Questions
+ + Can we predict the betrayal using the data in each seasons?
+ + Can we predict the betrayal using the four seasons of data before betrayal?
+ 
+### 6. Proposed dataset
   We decide to use the dataset given by the paper. There are two main reasons we do this:
   + The first reason is to reduce unnecessary work. It is hard to find enough dataset for such an old game. It also take too much time to process the data. For example, we might 
   spend extra time in learning Standford politeness test.
   + Another reason is that we can compare our result with the original paper directly. If we use different dataset, we might have high probability have different result due to 
   different preprocessing and different data. It is more convincing to say our model is better if our method increases the accuracy.
 
-### 5. Methods
+### 7. Methods
   + We will first explore if there is correlation between each pair of variables using Pearson coeficient. The interaction between variables we will look into are talkativeness and politeness, talkativeness and sentiment, number of request and politeness, number of request and sentiment. We will then use statistics test to find if the interaction between variables are helpful for predicting. 
-  + We add these interaction to see if we can increase the accuracy of the result based on their model.
-  + Finally, we will try other methods in machine learning like SVM, random forest and deep learning to do the task, see if we can achieve a higher accuracy.
+  + We predict the betrayal using the data in each seasons via machine learning techniques like SVM and random forest
+  + We predict the betrayal using the four seasons of data before betrayal via machine learning techniques like SVM and random forest to see if it is significant better.
 
-### 6. Proposed timeline
+### 8. Proposed timeline
   + First discussion on 11.28. Spend 10 hours to replicate the original paper, extract the necessary variables we will use from the data.
   + Second discussion on 12.05 & 12.06 . Spend 15 hours to extend our result.
   + Fix bugs and write report from 12.07 to 12.13. Spent 9 hours total to do this separately.
-  + Make a video from 12.14 to 12.18. Spend 3-5 hours to make a video.
+  + Make a video from 12.19 to 12.23. Spend 3-5 hours to make a video.
 
-### 7. Organization within the team
-A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
-
-  + Week 1: Yuanhui will be responsible for extracting all the needed variables from the json data, return as a pandas dataframe for later usage. Yehao and Hangqian will use the data to explore the correlation bettween each pair of variables mentioned before. If time allowed, more pairs of variables will be examined. 
-  + Week 2: Yehao will impleament the logistic regression model used in the paper with extra variables which are the meaningful interactions. We analyze the result, see if adding interactions is helpful for predicting betrayal. The three of us will start to use different machine learning methods to do the prediction.
-  + Week 3: Get results from our different methods, analyze the result. Start to write report and make video.
-  
-### 8. Questions for TAs (optional)
-No question right now.
