@@ -1,3 +1,22 @@
+  
+  
+  
+  ### Division of work within the group
+  + Yuanhui, Lin
+  
+  Data processing, writing report, making video, code merging and data exploring.
+  
+  + Yehao, Liu
+  
+  Machine learning, writing report, making video, data analysis and statistic analysis.
+  
+  + Hangqian, Li
+  
+  Data visualization, writing report, making video, data exploring and machine learning.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##P3-Extension
 ### 1. Does Betrayal Hide in Linguistics? Machine Learning Betrayal Detection in Diplomacy Game
 
