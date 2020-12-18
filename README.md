@@ -1,7 +1,7 @@
   
   * extension_feature_selection.ipynb: In this notebook, we mainly examine the different features that are provided in the dataset, look into the imbalance of different features and the correlation of different features. We will select features for the future extension work.
   
-  * extension_partI.ipynb:
+  * extension_partI.ipynb: In this notebook, we consider each valuable season as individual. We process the data in the way like in part 4 of the paper Language Foretelling Betrayal.
   
   * extension_partII.ipynb:
   
