@@ -11,27 +11,41 @@
   + Yuanhui, Lin
   
   1)Data processing: prepare data set for 4-seasons time series and all-seasons before last support prediction.
+  
   2)report writing
+  
   3)video making
+  
   4)code merging 
+  
   5)data exploring
+  
   6)data visualization
   
   + Yehao, Liu
   
   1)Logistic regression, SVM, random forest for 4-seasons presiction
+  
   2)report writing 
+  
   3)video making
-  4)data analysis:
+  
+  4)data analysis
+  
   5)statistic analysis: p value
   
   + Hangqian, Li
   
   1)Logistic regression, SVM, random forest for all-seasons presiction, K-means
-  1)Data visualization, 
-  2)report writing,
-  3)video making , 
+  
+  1)Data visualization
+  
+  2)report writing
+  
+  3)video making
+  
   4)data exploring
+  
   5)machine learning
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
