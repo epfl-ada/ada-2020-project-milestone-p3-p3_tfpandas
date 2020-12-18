@@ -10,17 +10,29 @@
   ### Division of work within the group
   + Yuanhui, Lin
   
-  Data processing, writing report, making video, code merging and data exploring.
+  1)Data processing: prepare data set for 4-seasons time series and all-seasons before last support prediction.
+  2)report writing
+  3)video making
+  4)code merging 
+  5)data exploring
+  6)data visualization
   
   + Yehao, Liu
   
-  Machine learning, writing report, making video, data analysis and statistic analysis.
+  1)Logistic regression, SVM, random forest for 4-seasons presiction
+  2)report writing 
+  3)video making
+  4)data analysis:
+  5)statistic analysis: p value
   
   + Hangqian, Li
   
-  Data visualization, writing report, making video, data exploring and machine learning.
-
-
+  1)Logistic regression, SVM, random forest for all-seasons presiction, K-means
+  1)Data visualization, 
+  2)report writing,
+  3)video making , 
+  4)data exploring
+  5)machine learning
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##P3-Extension
